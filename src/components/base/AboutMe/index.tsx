@@ -12,6 +12,7 @@ export function AboutMe() {
             <p className="text-xs">Contatos</p>
             <ListContacts/>
             <SeparatorMain/>
+            <p className="text-xs">Principais tecnologias</p>
         </div>
     );
 }
