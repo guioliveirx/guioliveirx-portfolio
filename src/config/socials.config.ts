@@ -30,7 +30,7 @@ export const socialsConfig: Nav[] = [
     {
         id: 5,
         title: "Currículo",
-        href: "/path/to/curriculo.pdf",
+        href: "https://drive.google.com/file/d/1FOUvkx6M9YcWpum27d2FUfdseKPyNdci/view?usp=drive_link",
         Icon: FilePdf,
     },
 ];
