@@ -1,6 +1,6 @@
 import { Skills } from "@/types/skills.type";
 
-const MainSkills: Skills[] = [
+export const AllSkills: Skills[] = [
     { id: 1, name: 'HTML', role: 'Frontend', alt: 'HTML Logo', src: 'https://skillicons.dev/icons?i=html', width: 30 },
     { id: 2, name: 'CSS', role: 'Frontend', alt: 'CSS Logo', src: 'https://skillicons.dev/icons?i=css', width: 30 },
     { id: 3, name: 'JavaScript', role: 'Frontend', alt: 'JavaScript Logo', src: 'https://skillicons.dev/icons?i=js', width: 30 },
@@ -11,5 +11,6 @@ const MainSkills: Skills[] = [
     { id: 8, name: 'ShadcnUI', role: 'Frontend', alt: 'ShadcnUI Logo', src: 'https://skillicons.dev/icons?i=shadcnui', width: 30 },
     { id: 9, name: 'Node.js', role: 'Backend', alt: 'Node.js Logo', src: 'https://skillicons.dev/icons?i=nodejs', width: 30 },
     { id: 10, name: 'Express', role: 'Backend', alt: 'Express Logo', src: 'https://skillicons.dev/icons?i=express', width: 30 },
-    { id: 11, name: 'Git', role: 'DevOps', alt: 'Git Logo', src: 'https://skillicons.dev/icons?i=git', width: 30 }
+    { id: 11, name: 'Git', role: 'DevOps', alt: 'Git Logo', src: 'https://skillicons.dev/icons?i=git', width: 30 },
+    { id: 12, name: 'Next.js', role: 'Frontend', alt: 'Next.js Logo', src: 'https://skillicons.dev/icons?i=nextjs', width: 30 },
 ];
