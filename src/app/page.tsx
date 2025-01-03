@@ -1,5 +1,5 @@
 import { AboutMe } from "@/components/base/AboutMe";
-import { Card } from "@/components/base/Card";
+import { Card } from "@/components/base/CardAvatar";
 import Image from "next/image";
 
 
