@@ -10,6 +10,10 @@ export default {
   theme: {
   	extend: {
   		colors: {
+			blue100: 'var(--azul-100)',
+			blue200: 'var(--azul-200)',
+			blue500: 'var(--azul-500)',
+			blue900: 'var(--azul-900)',
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {

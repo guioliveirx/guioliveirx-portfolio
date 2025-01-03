@@ -33,6 +33,10 @@ body {
     --chart-4: 43 74% 66%;
     --chart-5: 27 87% 67%;
     --radius: 0.5rem;
+    --azul-100: #EBF3FF;
+    --azul-200: #EBF2FF;
+    --azul-500: #0062F5;
+    --azul-900: #002352;
   }
   .dark {
     --background: 240 10% 3.9%;
