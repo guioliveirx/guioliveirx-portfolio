@@ -1,5 +1,6 @@
 import { Card } from "../CardAvatar";
 import { LeftCardTitle } from "../LeftCardTitle";
+import { ListContacts } from "../ListContacts";
 import { SeparatorMain } from "../SeparatorMain";
 
 export function AboutMe() {
@@ -10,7 +11,8 @@ export function AboutMe() {
             <LeftCardTitle title="FRONT-END DEVELOPER" name="@Guilherme Oliveira"/>
             <SeparatorMain/>
             <p className="text-xs">Contatos</p>
-            
+            <ListContacts/>
+
         </div>
     );
 }
