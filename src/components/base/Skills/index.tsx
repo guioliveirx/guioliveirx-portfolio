@@ -43,7 +43,7 @@ export function Skills({ variant = "all" }: MainSkillsProps) {
 
 
     return (
-        <div className="grid md:grid-cols-2 grid-cols-1 gap-5">
+        <div className="grid md:grid-cols-2 grid-cols-1 gap-5 ">
             {
                 allSkills.map(({ id, name, role, alt, src, width }) => (
                     <div className="flex py-[15px] px-[10px] gap-[15px] border border-blue900 min rounded-md hover:bg-blue900p10" key={id}>

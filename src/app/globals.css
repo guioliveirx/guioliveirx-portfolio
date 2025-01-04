@@ -69,6 +69,10 @@ body {
     --chart-4: 280 65% 60%;
     --chart-5: 340 75% 55%;
   }
+
+  .height{
+    height: calc(100% - 100px);
+  }
 }
 
 @layer base {
