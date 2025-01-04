@@ -11,7 +11,7 @@ export function Container({type = "main", children }: ContainerProps) {
     return (
         <ScrollArea className="bg-blue100 shadow-md">
             <div className={cn(
-                "flex flex-col gap-[20px] w-[900px] h-[773px] rounded p-[20px]"
+                "flex flex-col gap-[20px] xl:max-w-[900px] w-screen xl:h-[773px] h-[90dvh] rounded p-[20px]"
             )}>
                 {children}
             </div>

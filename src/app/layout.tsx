@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html className="scroll-smooth" lang="pt-BR">
       <body className={"font-[inter] antialiased"}>
-        <div className="bg-blue-50 w-screen h-screen flex justify-center items-center gap-[10px]">
+        <div className="bg-blue-50 w-screen h-screen flex xl:flex-row flex-col xl:justify-center xl:items-center xl:gap-[10px] gap-1">
           <SideBar/>
           {children}
         </div>
