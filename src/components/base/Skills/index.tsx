@@ -5,7 +5,7 @@ type MainSkillsProps = {
     variant?: "all" | "any" | "main"
 }
 
-export function Skills({ variant }: MainSkillsProps) {
+export function Skills({ variant = "all" }: MainSkillsProps) {
     const mainSkills = MainTechnologies;
     const allSkills = AllSkills;
     const anySkills = allSkills.slice(0, 6)
@@ -25,7 +25,7 @@ export function Skills({ variant }: MainSkillsProps) {
     } else if (variant === "any") {
         return (
             anySkills.map(({ id, name, role, alt, src, width }) => (
-                <div className="flex py-[15px] px-[10px] gap-[15px] border border-blue900 w-[420px] rounded-md hover:bg-blue900p10" key={id}>
+                <div className="flex py-[15px] px-[10px] gap-[15px] border border-blue900 max-w-[420px] rounded-md hover:bg-blue900p10" key={id}>
                     <span className="my-auto">
                         <img src={src} alt={alt} width={width} title={name} />
                     </span>
@@ -40,16 +40,20 @@ export function Skills({ variant }: MainSkillsProps) {
 
 
     return (
-        allSkills.map(({ id, name, role, alt, src, width }) => (
-            <div className="flex py-[15px] px-[10px] gap-[15px] border border-blue900 w-[420px] rounded-md hover:bg-blue900p10" key={id}>
-                <span>
-                    <img src={src} alt={alt} width={width} title={name} />
-                </span>
-                <div>
-                    <h3 className="mb-5">{name}</h3>
-                    <span>{role}</span>
-                </div>
-            </div>
-        ))
+        <div className="flex flex-wrap gap-[20px]">
+            {
+                allSkills.map(({ id, name, role, alt, src, width }) => (
+                    <div className="flex py-[15px] px-[10px] gap-[15px] border border-blue900 w-[420px] min rounded-md hover:bg-blue900p10" key={id}>
+                        <span className="my-auto">
+                            <img src={src} alt={alt} width={width} title={name} />
+                        </span>
+                        <div>
+                            <h3 className="font-bold text-blue900">{name}</h3>
+                            <span className="text-xs text-blue900p80">{role}</span>
+                        </div>
+                    </div>
+                ))
+            }
+        </div>
     );
 }
