@@ -35,6 +35,7 @@ body {
     --radius: 0.5rem;
     --azul-100: #EBF3FF;
     --azul-100-p50: rgba(235, 242, 255, 0.2);
+    --azul-100-p80: rgba(235, 242, 255, 0.8);
     --azul-200: #EBF2FF;
     --azul-500: #0062F5;
     --azul-900: #002352;

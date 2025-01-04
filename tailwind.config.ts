@@ -12,6 +12,7 @@ export default {
   		colors: {
 			blue100: 'var(--azul-100)',
 			blue100p50: 'var(--azul-100-p50)',
+			blue100p80: "var(--azul-100-p80)",
 			blue200: 'var(--azul-200)',
 			blue500: 'var(--azul-500)',
 			blue900: 'var(--azul-900)',
