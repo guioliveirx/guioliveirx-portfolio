@@ -10,7 +10,7 @@ export function Contact () {
                 socials.map(({id, title, href, Icon}) => (
                     <li key={id} className="flex items-center gap-2 mb-[10px]">
                         <Icon size={20}/>
-                        <Link href={href} title={title} rel="noopener noreferrer" target="_blanck" className="text-sm">
+                        <Link href={href} title={title} rel="noopener noreferrer" target="_blank" className="text-sm">
                             {title}
                         </Link>
                     </li>

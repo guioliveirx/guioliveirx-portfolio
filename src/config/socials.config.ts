@@ -1,6 +1,6 @@
 import { Nav } from "@/types/nav.type";
 
-import { MapPin, GithubLogo, LinkedinLogo, WhatsappLogo, FilePdf } from "@phosphor-icons/react";
+import {MapPin, GithubLogo, LinkedinLogo, WhatsappLogo, FilePdf } from "@phosphor-icons/react/dist/ssr";
 
 export const socialsConfig: Nav[] = [
     {   

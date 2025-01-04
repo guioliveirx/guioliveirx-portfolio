@@ -8,7 +8,7 @@ export function MainSkills() {
             {skills &&
                 skills.map(({ name, src, alt }) => (
                     <span key={name}>
-                        <img src={src} alt={alt} width={50} title={name}/>
+                        <img src={src} alt={alt} width={50} title={name} height={50}/>
                     </span>
                 ))
             }
