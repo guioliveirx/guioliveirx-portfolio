@@ -34,12 +34,15 @@ body {
     --chart-5: 27 87% 67%;
     --radius: 0.5rem;
     --azul-100: #EBF3FF;
-    --azul-100-p50: rgba(235, 242, 255, 0.2);
+    --azul-100-p20: rgba(235, 242, 255, 0.2);
     --azul-100-p80: rgba(235, 242, 255, 0.8);
     --azul-200: #EBF2FF;
     --azul-500: #0062F5;
+    --azul-900-p10: rgba(5, 15, 35, 0.1);
+    --azul-900-p80: rgba(5, 15, 35, 0.8);
     --azul-900: #002352;
   }
+  
   .dark {
     --background: 240 10% 3.9%;
     --foreground: 0 0% 98%;
