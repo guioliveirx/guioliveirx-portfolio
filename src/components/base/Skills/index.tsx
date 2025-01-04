@@ -40,10 +40,10 @@ export function Skills({ variant = "all" }: MainSkillsProps) {
 
 
     return (
-        <div className="flex flex-wrap gap-[20px]">
+        <div className="grid md:grid-cols-2 grid-cols-1 gap-5">
             {
                 allSkills.map(({ id, name, role, alt, src, width }) => (
-                    <div className="flex py-[15px] px-[10px] gap-[15px] border border-blue900 w-[420px] min rounded-md hover:bg-blue900p10" key={id}>
+                    <div className="flex py-[15px] px-[10px] gap-[15px] border border-blue900 min rounded-md hover:bg-blue900p10" key={id}>
                         <span className="my-auto">
                             <img src={src} alt={alt} width={width} title={name} />
                         </span>
