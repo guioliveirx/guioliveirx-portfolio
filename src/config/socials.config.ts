@@ -24,7 +24,7 @@ export const socialsConfig: Nav[] = [
     {
         id: 4,
         title: "Whatsapp",
-        href: "https://wa.me/1234567890",
+        href: "https://wa.me/5571981847173",
         Icon: WhatsappLogo,
     },
     {
