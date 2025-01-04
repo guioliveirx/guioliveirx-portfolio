@@ -1,7 +1,7 @@
 import { Card } from "../CardAvatar";
 import { LeftCardTitle } from "../LeftCardTitle";
 import { ListContacts } from "../ListContacts";
-import { MainSkills } from "../MainSkills";
+import { Skills } from "../Skills";
 import { SeparatorMain } from "../SeparatorMain";
 
 export function SideBar() {
@@ -14,7 +14,7 @@ export function SideBar() {
             <ListContacts/>
             <SeparatorMain/>
             <p className="text-xs">Principais tecnologias</p>
-            <MainSkills/>
+            <Skills variant="main"/>
         </div>
     );
 }
