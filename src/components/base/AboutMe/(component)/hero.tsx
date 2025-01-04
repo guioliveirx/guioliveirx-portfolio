@@ -5,7 +5,7 @@ export function Hero() {
     const socials = socialsConfig;
 
     return (
-        <div className="flex flex-col gap-[10px] bg-blue500 p-[20px] rounded text-blue100 ">
+        <div className="flex flex-col gap-[10px] bg-sky-600 p-[20px] rounded text-blue100 ">
             <h2 className="tracking-widest font-bold">Front-end Developer</h2>
             <p className="leading-6 text-sm text-blue100p80">Sou estudante de Ciências da Computação no IFBA, com paixão pelo desenvolvimento Front-End. Possuo experiência em projetos que utilizam tecnologias como HTML, CSS, JavaScript e frameworks modernos. Busco uma oportunidade para aplicar meu conhecimento em programação, design de interfaces e otimização de soluções digitais, contribuindo para projetos inovadores.</p>
             <div className="flex gap-[10px] py-[10px]">
