@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Footer() {
     return (
-        <div className="flex lg:flex-col bg-blue900 xl:h-[773px] md:h-dvh shadow-md rounded">
+        <footer className="flex lg:flex-col bg-blue900 xl:h-[773px] md:h-dvh shadow-md rounded">
             <div className="md:relative flex md:flex-col md:h-[100%] h-[50px] md:w-[70px] w-[100%] justify-center items-center gap-12
             ">
                 <Briefcase className="relative" size={30} color="#f5efef" weight="light" />
@@ -15,6 +15,6 @@ export default function Footer() {
                     <House size={30} color="#f5efef" weight="light" />
                 </Link>
             </div>
-        </div>
+        </footer>
     );
 }
