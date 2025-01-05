@@ -39,8 +39,9 @@ export function Container({ type = "main", children }: ContainerProps) {
                         </div>
                     </div>
                     <Separator />
-                    <Navigation/>
+                    <Navigation type="skill"/>
                     <Separator />
+                    <Navigation type="social"/>
                 </div>
                 {children}
             </div>

@@ -3,12 +3,13 @@ import Link from "next/link";
 
 type NavigationProps = {
     variant?: "col" | "row";
-    type?: "header" | "main";
+    type?: "header" | "main" | "skill" | "social";
 }
 
 export function Navigation({ variant = "row", type }: NavigationProps) {
     const navConfig = MenuList;
     const socialConfig = SocialList;
+    const choose = type === "skill" ? navConfig : socialConfig;
 
     if (type === "header") {
         return (
@@ -41,14 +42,16 @@ export function Navigation({ variant = "row", type }: NavigationProps) {
 
     return (
         <ul className="grid gap-2">
-            {navConfig.map(({ id, title, href, Icon }) => (
-                <li className="hover:bg-blue100p20 duration-300 rounded " key={id}>
-                    <Link className="flex items-center gap-3 p-2" href={href}>
-                        <Icon size={20} color="#f5efef" weight="light" />
-                        <span className="text-sm">{title}</span>
-                    </Link>
-                </li>
-            ))}
+            {
+                choose.map(({ id, title, href, Icon }) => (
+                    <li className="hover:bg-blue100p20 duration-300 rounded " key={id}>
+                        <Link className="flex items-center gap-3 p-2" href={href}>
+                            <Icon size={20} color="#f5efef" weight="light" />
+                            <span className="text-sm">{title}</span>
+                        </Link>
+                    </li>
+                ))
+            }
         </ul>
     );
 }
