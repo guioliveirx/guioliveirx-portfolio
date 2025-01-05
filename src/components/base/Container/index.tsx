@@ -7,6 +7,7 @@ import { AddressBook, Briefcase, Code, House, List, X } from "@phosphor-icons/re
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
+import { Navigation } from "../Navigation";
 
 type ContainerProps = {
     type?: "main" | "aside" | "footer"
@@ -38,34 +39,7 @@ export function Container({ type = "main", children }: ContainerProps) {
                         </div>
                     </div>
                     <Separator />
-                    <div>
-                        <ul>
-                            <li>
-                                <Link className="flex items-center gap-3" href="/">
-                                    <House size={30} color="#f5efef" weight="light" />
-                                    <span>Início</span>
-                                </Link>
-                            </li>
-                            <li>
-                                <Link href="/skills">
-                                    <Code size={30} color="#f5efef" weight="light" />
-                                    <span>Habilidades</span>
-                                </Link>
-                            </li>
-                            <li>
-                                <Link href="/">
-                                    <Briefcase className="relative" size={30} color="#f5efef" weight="light" />
-                                    <span>Repositórios</span>
-                                </Link>
-                            </li>
-                            <li>
-                                <Link href="/">
-                                    <AddressBook size={30} color="#f5efef" weight="light" />
-                                    <span>Contatos</span>
-                                </Link>
-                            </li>
-                        </ul>
-                    </div>
+                    <Navigation/>
                 </div>
                 {children}
             </div>
