@@ -1,8 +1,8 @@
-import { socialsConfig } from "@/config/socials.config";
+import { SocialList } from "@/config/NavList.config";
 import Link from "next/link";
 
 export function Hero() {
-    const socials = socialsConfig;
+    const socials = SocialList;
 
     return (
         <div className="flex flex-col gap-[10px] bg-gradient-to-r from-sky-700 to-red-700 p-[20px] rounded text-blue100">

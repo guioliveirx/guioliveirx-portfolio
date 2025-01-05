@@ -1,11 +1,9 @@
-import { Contact } from "./(component)/Contact";
+import { Navigation } from "../Navigation";
 
-export function Contacts () {
+export function Contacts() {
     return (
         <div>
-            <ul className="pt-[10px] ps-[10px]">
-                <Contact/>
-            </ul>
+            <Navigation type="header"/>
         </div>
     );
 }

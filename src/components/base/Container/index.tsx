@@ -27,7 +27,7 @@ export function Container({ type = "main", children }: ContainerProps) {
                 <span onClick={handleSideShow} className="absolute md:top-5 top-3 right-5 bg-blue900 rounded p-1 cursor-pointer">
                     <List size={30} color="#f5efef" weight="light" />
                 </span>
-                <div className={cn("flex flex-col side bg-blue900 duration-500 p-5 text-blue100 gap-5", show)}>
+                <div className={cn("rounded-lg flex flex-col side bg-blue900 duration-500 p-5 text-blue100 gap-5", show)}>
                     <span onClick={handleSideShow} className={cn("absolute right-7 top-7 hover:bg-blue100p20 duration-500 rounded cursor-pointer", show === "side-hidden" ? "hidden" : "block")}>
                         <X size={30} color="#fafafa" weight="light" />
                     </span>
@@ -40,6 +40,7 @@ export function Container({ type = "main", children }: ContainerProps) {
                     </div>
                     <Separator />
                     <Navigation/>
+                    <Separator />
                 </div>
                 {children}
             </div>

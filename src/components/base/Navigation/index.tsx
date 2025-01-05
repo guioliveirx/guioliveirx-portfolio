@@ -1,16 +1,38 @@
-import { NavList } from "@/config/NavList.config";
-import { AddressBook, Briefcase, Code, House, List, X } from "@phosphor-icons/react/dist/ssr";
+import { MenuList, SocialList } from "@/config/NavList.config";
 import Link from "next/link";
 
-export function Navigation() {
-    const navConfig = NavList;
+type NavigationProps = {
+    variant?: "col" | "row";
+    type?: "header" | "main";
+}
+
+export function Navigation({ variant, type }: NavigationProps) {
+    const navConfig = MenuList;
+    const socialConfig = SocialList;
+
+    if (type === "header") {
+        return (
+            <ul className="pt-[10px] ps-[10px]">
+                {
+                    socialConfig.map(({ id, title, href, Icon }) => (
+                        <li key={id} className="mb-[10px]">
+                            <Link href={href} title={title} rel="noopener noreferrer" target="_blank" className="text-sm text-blue100 flex items-center gap-2 hover:gap-3 hover:underline duration-300">
+                                <Icon size={20} />
+                                {title}
+                            </Link>
+                        </li>
+                    ))
+                }
+            </ul>
+        );
+    }
 
     return (
         <ul className="grid gap-2">
             {navConfig.map(({ id, title, href, Icon }) => (
                 <li className="hover:bg-blue100p20 duration-300 rounded " key={id}>
                     <Link className="flex items-center gap-3 p-2" href={href}>
-                        <Icon size={20} color="#f5efef" weight="light"/>
+                        <Icon size={20} color="#f5efef" weight="light" />
                         <span className="text-sm">{title}</span>
                     </Link>
                 </li>
