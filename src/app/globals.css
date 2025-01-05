@@ -75,6 +75,21 @@ body {
     background-size: 300% 100%;
     animation: infinity-gradient 5s infinite linear;
   }
+
+  .side{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -20px
+  }
+
+  .side-show {
+    left: 50%
+  }
+
+  .side-hidden{
+    left: 100%
+  }
 }
 
 @layer base {
