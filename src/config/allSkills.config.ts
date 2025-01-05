@@ -12,6 +12,6 @@ export const AllSkills: Skills[] = [
     { id: 9, name: 'Node.js', role: 'Backend', alt: 'Node.js Logo', src: '/repositories/NodeJS-Dark.svg', width: 30 },
     { id: 10, name: 'Express', role: 'Backend', alt: 'Express Logo', src: '/repositories/ExpressJS-Dark.svg', width: 30 },
     { id: 11, name: 'Git', role: 'DevOps', alt: 'Git Logo', src: '/repositories/Git.svg', width: 30 },
-    { id: 13, name: 'Github', role: 'DevOps', alt: 'Github Logo', src: '/repositories/Github-Dark.svg', width: 30 },
     { id: 12, name: 'Next.js', role: 'Frontend', alt: 'Next.js Logo', src: '/repositories/NextJS-Dark.svg', width: 30 },
+    { id: 13, name: 'Github', role: 'DevOps', alt: 'Github Logo', src: '/repositories/Github-Dark.svg', width: 30 },
 ];

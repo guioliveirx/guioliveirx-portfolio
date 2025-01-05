@@ -9,16 +9,14 @@ import { Container } from "../Container";
 
 export function AboutMe() {
     return (
-        <Semantic type="section">
-                <Container>
-                    <Title variant="Sobre mim" />
-                    <Hero />
-                    <Title variant="Repositório" />
-                    <Repositories />
-                    <Title variant="Tecnologias e Conhecimentos" />
-                    <Technologies/>
-                    <Button/>
-                </Container>
-        </Semantic>
+        <>
+            <Title variant="Sobre mim" />
+            <Hero />
+            <Title variant="Repositório" />
+            <Repositories />
+            <Title variant="Tecnologias e Conhecimentos" />
+            <Technologies />
+            <Button />
+        </>
     );
 }

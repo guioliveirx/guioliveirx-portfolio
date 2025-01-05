@@ -4,6 +4,7 @@ import { cn } from "@/lib/utils"
 import "./globals.css";
 import { SideBar } from "@/components/base/SideBar";
 import Footer from "@/components/base/Footer";
+import { Container } from "@/components/base/Container";
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -21,9 +22,11 @@ export default function RootLayout({
   return (
     <html className="scroll-smooth" lang="pt-BR">
       <body className="font-[inter] antialiased bg-gradient-to-b from-sky-800 to-sky-100 w-dvh h-dvh flex md:flex-row flex-col xl:justify-center xl:items-center xl:gap-[10px]">
-          <SideBar/>
+        <SideBar />
+        <Container>
           {children}
-          <Footer/>
+        </Container>
+        <Footer />
       </body>
     </html>
   );
