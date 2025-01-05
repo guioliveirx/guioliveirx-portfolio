@@ -82,14 +82,6 @@ body {
     bottom: 0;
     right: 0
   }
-
-  .side-show {
-    left: 50%
-  }
-
-  .side-hidden{
-    left: 100%
-  }
 }
 
 @layer base {
