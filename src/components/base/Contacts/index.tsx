@@ -1,6 +1,6 @@
-import { Contact } from "../Contact";
+import { Contact } from "./(component)/Contact";
 
-export function ListContacts () {
+export function Contacts () {
     return (
         <div>
             <ul className="pt-[10px] ps-[10px]">

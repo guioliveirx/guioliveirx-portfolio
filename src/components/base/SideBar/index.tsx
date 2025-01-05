@@ -1,6 +1,6 @@
 import { Card } from "../CardAvatar";
 import { LeftCardTitle } from "../LeftCardTitle";
-import { ListContacts } from "../ListContacts";
+import { Contacts } from "../Contacts";
 import { Skills } from "../Skills";
 import { SeparatorMain } from "../SeparatorMain";
 
@@ -11,7 +11,7 @@ export function SideBar() {
             <LeftCardTitle title="FRONT-END DEVELOPER" name="@Guilherme Oliveira"/>
             <SeparatorMain/>
             <p className="text-xs">Contatos</p>
-            <ListContacts/>
+            <Contacts/>
             <SeparatorMain/>
             <p className="text-xs">Principais tecnologias</p>
             <Skills variant="main"/>
