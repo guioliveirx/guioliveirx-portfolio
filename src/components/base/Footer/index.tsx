@@ -3,10 +3,13 @@ import Link from "next/link";
 
 export default function Footer() {
     return (
-        <div className="flex lg:flex-col bg-blue900 lg:h-[773px] gap-2 shadow-md rounded">
-            <div className="flex lg:flex-col lg:h-[100%] h-[70px] lg:w-[70px] w-[100%] justify-center items-center gap-10
+        <div className="flex lg:flex-col bg-blue900 xl:h-[773px] md:h-dvh shadow-md rounded">
+            <div className="md:relative flex md:flex-col md:h-[100%] h-[70px] md:w-[70px] w-[100%] justify-center items-center gap-12
             ">
-                <Briefcase size={30} color="#f5efef" weight="light" />
+                <span className="absolute md:top-5 top-3 right-4 bg-blue900 rounded p-1">
+                    <List size={30} color="#f5efef" weight="light" />
+                </span>
+                <Briefcase className="relative" size={30} color="#f5efef" weight="light" />
                 <Link href="/skills">
                     <Code size={30} color="#f5efef" weight="light" />
                 </Link>
