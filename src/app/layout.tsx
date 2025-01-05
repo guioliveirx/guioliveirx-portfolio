@@ -21,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html className="scroll-smooth" lang="pt-BR">
-      <body className="font-[inter] antialiased bg-gradient-to-b from-sky-800 to-sky-100 w-dvh h-dvh flex md:flex-row flex-col xl:justify-center xl:items-center xl:gap-[10px]">
+      <body className="font-[inter] antialiased bg-gradient-to-r from-sky-300 to-red-300 w-dvh h-dvh flex md:flex-row flex-col xl:justify-center xl:items-center xl:gap-[10px]">
         <SideBar />
         <Container>
           {children}
