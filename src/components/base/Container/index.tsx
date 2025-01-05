@@ -1,9 +1,11 @@
 'use client'
 
 import { ScrollArea } from "@/components/ui/scroll-area";
+import { Separator } from "@/components/ui/separator";
 import { cn } from "@/lib/utils";
-import { List, X } from "@phosphor-icons/react/dist/ssr";
+import { AddressBook, Briefcase, Code, House, List, X } from "@phosphor-icons/react/dist/ssr";
 import Image from "next/image";
+import Link from "next/link";
 import { useState } from "react";
 
 type ContainerProps = {
@@ -24,16 +26,45 @@ export function Container({ type = "main", children }: ContainerProps) {
                 <span onClick={handleSideShow} className="absolute md:top-5 top-3 right-5 bg-blue900 rounded p-1 cursor-pointer">
                     <List size={30} color="#f5efef" weight="light" />
                 </span>
-                <div className={cn("flex flex-col side bg-blue900 duration-500 p-5 text-blue100", show)}>
-                    <span onClick={handleSideShow} className={cn("absolute right-10 top-5 hover:bg-blue100p20 duration-500 rounded cursor-pointer", show === "side-hidden" ? "hidden" : "block")}>
-                        <X size={32} color="#fafafa" weight="light" />
+                <div className={cn("flex flex-col side bg-blue900 duration-500 p-5 text-blue100 gap-5", show)}>
+                    <span onClick={handleSideShow} className={cn("absolute right-7 top-7 hover:bg-blue100p20 duration-500 rounded cursor-pointer", show === "side-hidden" ? "hidden" : "block")}>
+                        <X size={30} color="#fafafa" weight="light" />
                     </span>
                     <div className="flex gap-3">
-                        <span><Image className="rounded-full" src="/repositories/Guilherme.webp" width={50} height={50} alt="profile picture"/> </span>
-                        <div>
-                            <h1>Front-end Developer</h1>
-                            <p>@Guilherme Oliveira</p>
+                        <span><Image className="rounded-full" src="/repositories/Guilherme.webp" width={50} height={50} alt="profile picture" /></span>
+                        <div className="flex flex-col justify-center">
+                            <h1 className="text-sm text-blue100">Front-end Developer</h1>
+                            <p className="text-xs text-blue100p80">@Guilherme Oliveira</p>
                         </div>
+                    </div>
+                    <Separator />
+                    <div>
+                        <ul>
+                            <li>
+                                <Link className="flex items-center gap-3" href="/">
+                                    <House size={30} color="#f5efef" weight="light" />
+                                    <span>Início</span>
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="/skills">
+                                    <Code size={30} color="#f5efef" weight="light" />
+                                    <span>Habilidades</span>
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="/">
+                                    <Briefcase className="relative" size={30} color="#f5efef" weight="light" />
+                                    <span>Repositórios</span>
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="/">
+                                    <AddressBook size={30} color="#f5efef" weight="light" />
+                                    <span>Contatos</span>
+                                </Link>
+                            </li>
+                        </ul>
                     </div>
                 </div>
                 {children}
