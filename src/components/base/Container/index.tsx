@@ -10,7 +10,7 @@ export function Container({type = "main", children }: ContainerProps) {
 
     return (
         <ScrollArea className="bg-blue100 shadow-md xl:rounded">
-            <div className="relative flex flex-col gap-[30px] xl:max-w-[900px] md:w-[calc(100dvw-70px)] xl:h-[773px] md:h-dvh h-[calc(100dvh-70px)] p-[20px]">
+            <div className="relative flex flex-col gap-[30px] xl:max-w-[900px] md:w-[calc(100dvw-70px)] xl:h-[773px] md:h-dvh h-[calc(100dvh-70px)] p-[20px] animate-slide-left">
                 {children}
             </div>
         </ScrollArea>

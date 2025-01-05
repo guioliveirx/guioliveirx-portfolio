@@ -69,6 +69,12 @@ body {
     --chart-4: 280 65% 60%;
     --chart-5: 340 75% 55%;
   }
+  
+  .infinite-gradient {
+    background-image: linear-gradient(to right, #0369a1, #b91c1c);
+    background-size: 300% 100%;
+    animation: infinity-gradient 5s infinite linear;
+  }
 }
 
 @layer base {
