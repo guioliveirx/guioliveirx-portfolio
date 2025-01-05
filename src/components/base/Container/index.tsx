@@ -29,7 +29,7 @@ export function Container({ type = "main", children }: ContainerProps) {
                         <X size={32} color="#fafafa" weight="light" />
                     </span>
                     <div className="flex gap-3">
-                        <span><Image className="rounded-full" src="/repositories/Guilherme.webp" width={50} height={50} /> </span>
+                        <span><Image className="rounded-full" src="/repositories/Guilherme.webp" width={50} height={50} alt="profile picture"/> </span>
                         <div>
                             <h1>Front-end Developer</h1>
                             <p>@Guilherme Oliveira</p>
