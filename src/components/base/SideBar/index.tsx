@@ -10,10 +10,10 @@ export function SideBar() {
             <Card />
             <LeftCardTitle title="FRONT-END DEVELOPER" name="@Guilherme Oliveira"/>
             <SeparatorMain/>
-            <p className="text-xs">Contatos</p>
+            <p className="text-xs text-blue100p80">Contatos</p>
             <Contacts/>
             <SeparatorMain/>
-            <p className="text-xs">Principais tecnologias</p>
+            <p className="text-xs text-blue100p80">Principais tecnologias</p>
             <Skills variant="main"/>
         </div>
     );
