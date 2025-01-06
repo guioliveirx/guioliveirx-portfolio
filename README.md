@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# 📋 Meu Portfolio
 
-First, run the development server:
+A construção do meu site portfólio utilizando a biblioteca React e o framework Next.js 15. Foi uma experiência incrível e muito enriquecedora! 
+Este projeto não apenas reflete minhas habilidades técnicas, mas também meu comprometimento em aprender, evoluir e entregar soluções de qualidade.
+
+
+# 💻 Visualizando o projeto 
+
+![FIGMA Apresentação]<a href="https://guioliveirx.vercel.app/"><img src="https://github.com/guioliveirx/portfoliogb/blob/master/public/repositories/Portfolio-wide-light.png?raw=true"/></a>
+
+
+# 🏷️ Etiquetas
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+
+
+# ✍🏻 Como instalar
+
+Clone o projeto, utilizando o terminal:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+  git clone https://github.com/guioliveirx/guioliveirx-portfolio.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Em seguida:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+  npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Para rodar o projeto:
 
-## Learn More
+```bash
+  npm run dev
+```
+    
+# 🎆 Deploy
 
-To learn more about Next.js, take a look at the following resources:
+Para acessar o deploy: [Site portfólio](https://guioliveirx.vercel.app/)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# 👨🏻‍💻Autores e Agradecimentos
 
-## Deploy on Vercel
+- [guioliveirx](https://github.com/guioliveirx)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Obrigado por ter chegado até aqui! 
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Esse projeto foi feito com carinho e atenção, mas acima disso, com profissionalidade. Espero que tenha gostado, e caso tenha interesse, olhe meus outros projetos, ou me mande uma mensagem no [linkedin](https://www.linkedin.com/in/guioliveira2002/) ou [whatsapp](https://wa.me/5571981847173?text=Ol%C3%A1+Guilherme%21v).
