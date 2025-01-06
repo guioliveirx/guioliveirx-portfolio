@@ -20,14 +20,14 @@ export function Container({ type = "main", children }: ContainerProps) {
     }
 
     return (
-        <ScrollArea className="bg-blue100 shadow-md xl:rounded">
-            <div className="relative flex flex-col gap-[30px] xl:max-w-[900px] md:w-[calc(100dvw-70px)] xl:h-[773px] md:h-dvh h-[calc(100dvh-50px)] md:p-[20px] p-[10px] animate-slide-left">
-                <span onClick={handleSideShow} className="absolute md:top-5 top-3 right-5 bg-blue900 rounded p-1 cursor-pointer">
-                    <List size={30} color="#f5efef" weight="light" />
-                </span>
-                <Sidebar handleSideShow={handleSideShow} show={show}/>
+        <div className="relative rounded bg-blue100 overflow-y-auto overflow-x-hidden xl:max-w-[900px] xl:h-[773px] custom-scroll p-3">
+            <span onClick={handleSideShow} className="xl:absolute fixed xl:top-5 top-0 xl:right-5 right-0 z-10 xl:w-auto w-[100%] bg-blue900 xl:rounded xl:p-1 p-2 cursor-pointer">
+                <List className="justify-self-end xl:mr-0 mr-3" size={30} color="#f5efef" weight="light" />
+            </span>
+            <div className="mt-12 xl:mt-3 relative flex flex-col gap-[20px] xl:w-[calc(100dvh-70px)]  md:h-dvh h-[calc(100dvh-50px)] animate-slide-left">
                 {children}
             </div>
-        </ScrollArea>
+            <Sidebar handleSideShow={handleSideShow} show={show}/>
+        </div>
     );
 }
