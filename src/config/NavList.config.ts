@@ -18,7 +18,7 @@ export const MenuList: Nav[] = [
     {
         id: 3,
         title: "Repositórios",
-        href: "https://linkedin.com/in/guioliveira2002",
+        href: "/repositories",
         Icon: Briefcase
     },
     {
