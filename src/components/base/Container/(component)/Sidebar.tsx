@@ -13,7 +13,7 @@ type SidebarProps = {
 export function Sidebar({ handleSideShow, show }: SidebarProps) {
     return (
         <div className={
-            cn("fixed xl:absolute top-0 bottom-0 right-0 rounded-lg flex flex-col bg-blue900 duration-500 p-5 text-blue100 gap-3 z-20",
+            cn("fixed xl:absolute top-0 bottom-0 right-0 rounded-lg flex flex-col bg-blue900 duration-500 p-5 text-blue100 gap-2 z-20",
                 show === "hidden" ? "md:left-1/2 left-16 " : "left-[calc(110%)]")}>
             <span onClick={handleSideShow} className={cn("absolute right-7 top-7 hover:bg-blue100p20 duration-500 rounded cursor-pointer", show === "side-hidden" ? "hidden" : "block")}>
                 <X size={30} color="#fafafa" weight="light" />

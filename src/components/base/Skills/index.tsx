@@ -26,7 +26,7 @@ export function Skills({ variant = "all" }: MainSkillsProps) {
     } else if (variant === "any") {
 
         return (
-            <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5">
+            <div className="animate-slide-left grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5">
                 {anySkills.map(({ id, name, role, alt, src, width }) => (
                     <Link title={alt} href="/skills" className="flex py-[15px] px-[10px] gap-[15px] border border-blue900 rounded-md hover:bg-blue900p10 duration-300 ease-in" key={id}>
                         <span className="my-auto">

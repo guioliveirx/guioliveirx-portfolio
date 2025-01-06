@@ -6,7 +6,7 @@ export function Repositories () {
     const config = RepositoriesList;
 
     return (
-        <div className="grid md:grid-cols-2 grid-cols-1 gap-[20px]">
+        <div className="animate-slide-left grid md:grid-cols-2 grid-cols-1 gap-[20px]">
             {config.map(({id, title, description, technologies, href}) => (
                 <Link href={href} target="_blank" className="flex flex-col p-[10px] gap-[15px] border border-blue900 rounded-md hover:bg-blue900p10 duration-300 ease-in" key={id}>
                     <h3 className="font-bold text-md">{title}</h3>
