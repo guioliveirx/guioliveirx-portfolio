@@ -4,8 +4,8 @@ export function MadeBy() {
     const year = new Date().getFullYear()
     
     return (
-        <span className="text-xs absolute bottom-5 left-1/4">
-            © {year} · Desenvolvido por{" "}
+        <span className="flex items-end gap-1 justify-center text-xs text-center h-full">
+            © {year} · Desenvolvido por 
             <Link
                 href="https://wa.me/5571981847173?text=Ol%C3%A1+Guilherme%21"
                 target="_blank"

@@ -45,7 +45,7 @@ export function Navigation({ variant = "row", type }: NavigationProps) {
             {
                 choose.map(({ id, title, href, Icon }) => (
                     <li className="hover:bg-blue100p20 duration-300 rounded " key={id}>
-                        <Link className="flex items-center gap-3 p-2" href={href}>
+                        <Link className="flex items-center gap-2 p-1" href={href}>
                             <Icon size={20} color="#f5efef" weight="light" />
                             <span className="text-sm">{title}</span>
                         </Link>
