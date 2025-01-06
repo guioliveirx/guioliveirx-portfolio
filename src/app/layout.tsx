@@ -3,7 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { Header} from "@/components/base/Header";
 import Footer from "@/components/base/Footer";
-import { Container } from "@/components/base/Container";
+import { MainContainer } from "@/components/base/MainContainer";
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -22,9 +22,9 @@ export default function RootLayout({
     <html className="scroll-smooth" lang="pt-BR">
       <body className="font-[inter] antialiased bg-gradient-to-r from-sky-300 to-red-300 w-dvh h-dvh flex md:flex-row flex-col xl:justify-center xl:items-center xl:gap-[10px]">
         <Header/>
-        <Container>
+        <MainContainer>
           {children}
-        </Container>
+        </MainContainer>
         <Footer />
       </body>
     </html>

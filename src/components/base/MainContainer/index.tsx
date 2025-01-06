@@ -12,7 +12,7 @@ type ContainerProps = {
     children: React.ReactNode
 }
 
-export function Container({ type = "main", children }: ContainerProps) {
+export function MainContainer({ type = "main", children }: ContainerProps) {
     const [show, setShow] = useState("show");
 
     function handleSideShow() {

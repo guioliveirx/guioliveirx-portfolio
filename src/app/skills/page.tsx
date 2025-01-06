@@ -1,4 +1,4 @@
-import { Container } from "@/components/base/Container";
+import { Container } from "@/components/base/MainContainer";
 import { Skills } from "@/components/base/Skills";
 import Link from "next/link";
 
