@@ -18,13 +18,13 @@ export const MenuList: Nav[] = [
     {
         id: 3,
         title: "Repositórios",
-        href: "/repositorios",
+        href: "https://linkedin.com/in/guioliveira2002",
         Icon: Briefcase
     },
     {
         id: 4,
         title: "Contatos",
-        href: "/contatos",
+        href: "https://wa.me/5571981847173",
         Icon: AddressBook
     },
 ]
