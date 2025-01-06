@@ -7,7 +7,7 @@ Este projeto não apenas reflete minhas habilidades técnicas, mas também meu c
 
 # 💻 Visualizando o projeto 
 
-![FIGMA Apresentação]<a href="https://guioliveirx.vercel.app/"><img src="https://github.com/guioliveirx/portfoliogb/blob/master/public/repositories/Portfolio-wide-light.png?raw=true"/></a>
+<a href="https://guioliveirx.vercel.app/"><img src="https://github.com/guioliveirx/portfoliogb/blob/master/public/repositories/Portfolio-wide-light.png?raw=true"/></a>
 
 
 # 🏷️ Etiquetas
