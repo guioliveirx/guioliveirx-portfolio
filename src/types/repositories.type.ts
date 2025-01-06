@@ -4,4 +4,5 @@ export type Repositories = {
     description : string;
     technologies : string[];
     path: string
+    href: string
 }
