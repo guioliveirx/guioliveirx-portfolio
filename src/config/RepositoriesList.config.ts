@@ -4,7 +4,7 @@ export const RepositoriesList : Repositories[] = [
     {
         id: 1,
         title: "Portfolio",
-        description: "Site portfolio para uma introdução sobre mim, minhas experiências, meus trabalhos contato.",
+        description: "Este é o meu site portfolio, site desenvolvido em React com o NextJS 15. O site demonstra todas as minhas habilidades, quem sou eu, meus contatos e meus repositórios.",
         technologies: ["/repositories/React-Dark.svg", "/repositories/NextJS-Dark.svg", "/repositories/TailwindCSS-Dark.svg", "/repositories/TypeScript.svg"],
         path: "/repositories",
         href: "/"

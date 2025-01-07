@@ -6,7 +6,7 @@ import { SeparatorMain } from "../SeparatorMain";
 
 export function Header() {
     return (
-        <header className="xl:flex hidden flex-col bg-blue900 w-[400px] rounded p-[20px] gap-[10px] text-blue100 shadow">
+        <header className="xl:flex hidden flex-col bg-blue900 w-[400px] max-h-[773px] h-full rounded p-[20px] gap-[10px] text-blue100 shadow overflow-auto custom-scroll">
             <Card />
             <LeftCardTitle title="FRONT-END DEVELOPER" name="@Guilherme Oliveira"/>
             <SeparatorMain/>
