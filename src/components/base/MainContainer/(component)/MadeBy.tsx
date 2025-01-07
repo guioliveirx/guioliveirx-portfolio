@@ -5,7 +5,7 @@ export function MadeBy() {
     
     return (
         <span className="flex items-end gap-1 justify-center text-xs text-center h-full">
-            © {year} · Desenvolvido por 
+            © {year} By
             <Link
                 href="https://wa.me/5571981847173?text=Ol%C3%A1+Guilherme%21"
                 target="_blank"
