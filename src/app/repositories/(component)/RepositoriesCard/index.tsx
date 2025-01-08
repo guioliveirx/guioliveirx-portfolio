@@ -31,8 +31,10 @@ export function RepositoriesCard() {
                         </div>
                         <p className="text-xs line-clamp-2">{description}</p>
                     </div>
-                    <Link href={href} target="_blank" className="overflow-hidden">
-                        <Image className="group-hover:scale-105 ease-out duration-300" src={image} layout="responsive" width={100} height={100} alt={title} />
+                    <Link href={href} target="_blank">
+                        <div className="overflow-hidden">
+                            <Image className="group-hover:scale-105 ease-out duration-300" src={image} layout="responsive" width={100} height={100} alt={title} />
+                        </div>
                     </Link>
                 </div>
             ))}
