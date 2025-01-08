@@ -1,23 +1,12 @@
 import { AddressBook, Book, Briefcase, Code, House, List } from "@phosphor-icons/react/dist/ssr";
 import Link from "next/link";
+import { Navigation } from "../Navigation";
 
 export default function Footer() {
     return (
-        <footer className="flex lg:flex-col md:relative fixed bottom-0 right-0 left-0 bg-blue900 xl:max-h-[773px] md:h-dvh shadow-md xl:rounded">
-            <div className="md:relative flex md:flex-col md:h-[100%] h-[50px] md:w-[70px] w-[100%] justify-center items-center gap-12
-            ">
-                <Link href="https://linkedin.com/in/guioliveira2002">
-                    <Briefcase className="relative" size={30} color="#f5efef" weight="light" />
-                </Link>
-                <Link href="/skills">
-                    <Code size={30} color="#f5efef" weight="light" />
-                </Link>
-                <Link href="https://wa.me/5571981847173">
-                    <AddressBook size={30} color="#f5efef" weight="light" />
-                </Link>
-                <Link href="/">
-                    <House size={30} color="#f5efef" weight="light" />
-                </Link>
+        <footer>
+            <div className="flex lg:flex-col md:relative fixed bottom-0 right-0 left-0 bg-blue900 xl:max-h-[773px] md:h-dvh shadow-md xl:rounded">
+                <Navigation type="footer"/>
             </div>
         </footer>
     );

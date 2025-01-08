@@ -3,7 +3,7 @@ import Link from "next/link";
 
 type NavigationProps = {
     variant?: "col" | "row";
-    type?: "header" | "main" | "skill" | "social";
+    type?: "header" | "main" | "footer" | "skill" | "social";
 }
 
 export function Navigation({ variant = "row", type }: NavigationProps) {
@@ -35,6 +35,20 @@ export function Navigation({ variant = "row", type }: NavigationProps) {
                     <Link className="p-[5px] border rounded-md transition-all duration-300 hover:bg-blue100p20" href={href} title={title} rel="noopener noreferrer" target="_blank" key={id}>
                         <Icon size={25}></Icon>
                     </Link>
+                ))}
+            </ul>
+        )
+    }
+
+    if (type === "footer") {
+        return (
+            <ul className="md:relative flex md:flex-col md:h-[100%] h-[50px] md:w-[70px] w-[100%] justify-center items-center gap-12">
+                {navConfig.map(({ id, Icon, title, href }) => (
+                    <li key={id}>
+                        <Link title={title} href={href}>
+                            <Icon size={30} color="#f5efef" weight="light" />
+                        </Link>
+                    </li>
                 ))}
             </ul>
         )
