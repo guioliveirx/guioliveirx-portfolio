@@ -32,8 +32,8 @@ export function Navigation({ variant = "row", type }: NavigationProps) {
         return (
             <ul className="flex gap-[10px] py-[10px]">
                 {socialConfig.map(({ id, Icon, title, href }) => (
-                    <li key={id}>
-                        <Link className="p-[5px] border rounded-md transition-all duration-300 hover:bg-blue100p20" href={href} title={title} rel="noopener noreferrer" target="_blank">
+                    <li key={id} className="flex border rounded-md">
+                        <Link className="p-[5px] transition-all duration-300 hover:bg-blue100p20" href={href} title={title} rel="noopener noreferrer" target="_blank">
                             <Icon size={25}></Icon>
                         </Link>
                     </li>
