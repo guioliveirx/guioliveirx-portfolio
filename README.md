@@ -2,19 +2,19 @@
     <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=5000&lines=Meu+Portfolio!;" />
 </div>
 
-# Introdução
+## Introdução
 
 A construção do meu site portfólio utilizando a biblioteca `React` e o framework `Next.js 15`. Foi uma experiência incrível e muito enriquecedora! 
 
 Este projeto não apenas reflete minhas habilidades técnicas, mas também meu comprometimento em aprender, evoluir e entregar soluções de qualidade.
 
 
-# Visualizando o projeto 
+## Visualizando o projeto 
 
 <a href="https://guioliveirx.vercel.app/"><img src="https://github.com/guioliveirx/portfoliogb/blob/master/public/repositories/Portfolio.webp?raw=true"/></a>
 
 
-# Como instalar
+## Como instalar
 
 Clone o projeto, utilizando o terminal:
 
@@ -34,12 +34,12 @@ Para rodar o projeto:
   npm run dev
 ```
     
-# Deploy
+## Deploy
 
 Para acessar o deploy: [Portfolio](https://guioliveirx.vercel.app/)
 
 
-# Autores e Agradecimentos
+## Autores e Agradecimentos
 
 - [guioliveirx](https://github.com/guioliveirx)
 
