@@ -27,9 +27,9 @@ export function Sidebar({ handleSideShow, show }: SidebarProps) {
                     </div>
                 </div>
                 <Separator />
-                <Navigation type="skill" />
+                <Navigation variant="skills" type="sidebar" />
                 <Separator />
-                <Navigation type="social" />
+                <Navigation type="sidebar" />
                 <MadeBy />
             </div>
         </div>

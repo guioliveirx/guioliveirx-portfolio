@@ -6,7 +6,7 @@ export const RepositoriesList : Repositories[] = [
         title: "Portfolio",
         image: "/repositories/Portfolio.webp",
         description: "Este é o meu site portfolio, site desenvolvido em React com o NextJS 15. O site demonstra todas as minhas habilidades, quem sou eu, meus contatos e meus repositórios.",
-        technologies: ["/repositories/React-Dark.svg", "/repositories/NextJS-Dark.svg", "/repositories/TailwindCSS-Dark.svg", "/repositories/TypeScript.svg"],
+        technologies: ["/skills/React-Dark.svg", "/skills/NextJS-Dark.svg", "/skills/TailwindCSS-Dark.svg", "/skills/TypeScript.svg"],
         path: "/repositories",
         href: "/"
     },
@@ -15,7 +15,7 @@ export const RepositoriesList : Repositories[] = [
         title: "Caravan",
         image: "/repositories/Caravan.webp",
         description: "Site de Planos para Viagens. Em sua construção foi o utilizado do Framework Bootstrap.",
-        technologies: ["/repositories/Bootstrap.svg","/repositories/HTML.svg","/repositories/CSS.svg"],
+        technologies: ["/skills/Bootstrap.svg","/skills/HTML.svg","/skills/CSS.svg"],
         path: "/repositories",
         href: "https://caravanstrip.vercel.app/"
     },
@@ -24,7 +24,7 @@ export const RepositoriesList : Repositories[] = [
         title: "React-clock",
         image: "/repositories/React-clock.webp",
         description: "Site de um relógio digital, feito para treinamento de habilidades adquiridas em react utilizando também o tailwind como framework.",
-        technologies: ["/repositories/React-Dark.svg", "/repositories/NextJS-Dark.svg", "/repositories/TailwindCSS-Dark.svg", "/repositories/TypeScript.svg"],
+        technologies: ["/skills/React-Dark.svg", "/skills/NextJS-Dark.svg", "/skills/TailwindCSS-Dark.svg", "/skills/TypeScript.svg"],
         path: "/repositories",
         href: "https://clockreact.vercel.app/"
     }
