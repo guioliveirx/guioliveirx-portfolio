@@ -11,7 +11,7 @@ Este projeto não apenas reflete minhas habilidades técnicas, mas também meu c
 
 ## Visualizando o projeto 
 
-<a href="https://guioliveirx.vercel.app/"><img src="https://github.com/guioliveirx/portfoliogb/blob/master/public/repositories/Portfolio.webp?raw=true"/></a>
+<a href="https://www.guioliveirx.live/"><img src="https://github.com/guioliveirx/portfoliogb/blob/master/public/repositories/Portfolio.webp?raw=true"/></a>
 
 
 ## Como instalar
@@ -36,7 +36,7 @@ Para rodar o projeto:
     
 ## Deploy
 
-Para acessar o deploy: [Portfolio](https://guioliveirx.vercel.app/)
+Para acessar o deploy: [Portfolio](https://www.guioliveirx.live/)
 
 
 ## Autores e Agradecimentos
