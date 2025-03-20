@@ -4,9 +4,15 @@
 
 ## Introdução
 
-A construção do meu site portfólio utilizando a biblioteca `React` e o framework `Next.js 15`. Foi uma experiência incrível e muito enriquecedora! 
+Este é meu site de portfólio pessoal, criado com `React`, `Next.js 15` e `Tailwind CSS`. Ele mostra meu trabalho, habilidades e jornada profissional em um design limpo e moderno.
 
-Este projeto não apenas reflete minhas habilidades técnicas, mas também meu comprometimento em aprender, evoluir e entregar soluções de qualidade.
+Recursos:</br>
+✅ Seção sobre mim com meu histórico e experiência </br>
+✅ Apresentação dos meus projetos com descrições detalhadas </br>
+✅ Exibição das minhas habilidades técnicas e experiência </br>
+✅ Design totalmente responsivo para todos os dispositivos </br>
+
+Este projeto reflete não apenas minhas habilidades técnicas, mas também minha paixão por aprendizado contínuo e entrega de soluções de alta qualidade. 🚀💼
 
 
 ## Visualizando o projeto 
