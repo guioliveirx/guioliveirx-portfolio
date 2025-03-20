@@ -49,6 +49,4 @@ Esse projeto foi feito com carinho e atenção, mas acima disso, com profissiona
 
 #
 
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Next](https://img.shields.io/badge/Next-000000?style=for-the-badge&logo=Next.js&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=Tailwindcss&logoColor=white)
+![Badges](https://skillicons.dev/icons?i=react,next,tailwind)
